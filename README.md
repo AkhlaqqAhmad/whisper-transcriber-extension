@@ -2,6 +2,26 @@
 
 An open-source Chrome extension that allows users to transcribe audio files using OpenAI's Whisper AI, with a FastAPI backend.
 
+Project Structure
+
+whisper-transcriber-project/
+│
+├── backend/                     # 🛠 Backend server for Whisper AI
+│   ├── backend.py               # FastAPI server
+│   ├── requirements.txt         # Python dependencies         
+│
+├── chrome-extension/            # 🌐 Chrome Extension files
+│   ├── manifest.json            # Chrome extension metadata
+│   ├── popup.html               # UI for the extension
+│   ├── popup.js                 # JavaScript logic (API calls)
+│   ├── styles.css               # Styling for the extension
+│   └── icons/                   # Extension icons
+│       ├── icon16.png
+│       ├── icon48.png
+│       └── icon128.png
+│
+
+
 ## 🚀 Features
 ✅ Upload an audio file (.mp3, .wav, etc.)  
 ✅ Transcribe the file using Whisper AI  
